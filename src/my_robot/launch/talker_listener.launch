@@ -1,0 +1,4 @@
+<launch>
+    <node name="talker" pkg="my_robot" type="publisher.py" output="screen"/>
+    <node name="listener" pkg="my_robot" type="subscriber.py" output="screen"/>
+</launch>
